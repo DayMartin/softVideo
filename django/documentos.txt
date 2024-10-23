@@ -38,3 +38,7 @@ install pip install Pillow
 criar as migrações que correspondem as tabelas de model
 
 python manage.py makemigrations
+
+executar a migration
+
+python manage.py migrate
