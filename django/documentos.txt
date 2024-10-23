@@ -1,0 +1,40 @@
+SEMPRE QUE FOR CODAR NO TERMINAL
+conda activate py312
+pipenv shell
+
+instalar o pip 
+
+sudo apt install pipenv
+
+definir as variaveis
+
+PIPENV_VENV_IN_PROJECT=1 pipenv install django
+
+pipenv shell
+
+criar projeto 
+django-admin startproject videos
+
+rodar o framework
+
+python manage.py runserver
+
+instalar todas as tabelas para o sqlite padrao
+
+python manage.py migrate
+
+criar um superuser
+
+python manage.py createsuperuser
+
+
+subir containeres
+
+docker-compose up
+
+install pip install Pillow
+
+
+criar as migrações que correspondem as tabelas de model
+
+python manage.py makemigrations
